@@ -1,0 +1,50 @@
+body {
+	background: #333333;
+	padding: 0;
+	margin: 0;
+	font-family: 'Merriweather', serif !important;
+}
+
+a {
+	text-decoration: none;
+	color: #FFBB77;
+}
+h1 {
+	color: #FFF;
+	font-size: 20px;
+	padding: 0 10px;
+}
+
+#mainMap {
+	height: 100%;
+	width: 100%;
+}
+
+.date {
+	position: fixed;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+}
+.dateText, .speedSelector {
+	background: #333333;
+	color: #FEFEFE;
+	margin: 0;
+	padding: 0.5em 2em;
+}
+.speed {
+	border: 0;
+	color: #FEFEFE;
+	text-align: left;
+	background: transparent;
+	width: 30px;
+}
+.leaflet-container {
+    background: #333;
+}
+.leaflet-marker-icon {
+	border-radius: 50px;
+	left: 15px;
+	top: 15px;
+
+}
