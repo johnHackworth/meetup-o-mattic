@@ -2,7 +2,7 @@ window.cerebro = window.cerebro || {};
 
 window.cerebro.Map = function( id ) {
 	this.markers = {};
-	this.map = L.map( id ).setView( [ 51.505, -0.09 ], 2 );
+	this.map = L.map( id ).setView( [ 31.505, -70.09 ], 4 );
 	L.tileLayer( 'https://{s}.tiles.mapbox.com/v4/examples.ra3sdcxr/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q', {
 	} ).addTo( this.map );
 };
